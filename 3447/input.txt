@@ -1,0 +1,8 @@
+print "No bugs here..."
+
+void hello() {
+BUG
+printfBUG("Hello, world!\n");
+}
+
+wriBUGBUGtelBUGn("Hello B-U-G");
