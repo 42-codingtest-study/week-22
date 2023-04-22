@@ -1,0 +1,10 @@
+name, age, weight = map(str, input().split()) 
+
+while (name != '#'):
+    age = int(age)
+    weight = int(weight)
+    if age > 17 or weight >= 80 :
+        print(name + " Senior")
+    else :
+        print(name + " Junior")
+    name, age, weight = map(str, input().split())
